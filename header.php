@@ -96,7 +96,7 @@
                 </div>
            </div>
             <div class="contentWrapper">
-                <a href="#"><img id="siteLogo" style="position: absolute; margin-left: -70px;" src="<?php bloginfo('template_url'); ?>/images/logo.png" /></a>
+                <a href="<?php bloginfo('url'); ?>"><img id="siteLogo" style="position: absolute; margin-left: -70px;" src="<?php bloginfo('template_url'); ?>/images/logo.png" /></a>
             </div>
            </div>
     <div id="navBar">

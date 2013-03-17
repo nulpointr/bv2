@@ -18,7 +18,7 @@
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 	<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <div class="sanoProductImagePanel">
-            <img alt="featured image" style="margin-top: 60px;" src="<?php the_post_thumbnail_url(); ?>" />
+            <img alt="featured image" style="margin-top: 10px;" src="<?php the_post_thumbnail_url(); ?>" />
         </div>
         <div class="sanoProductDescriptionPanel">
             <?php the_content(); ?>

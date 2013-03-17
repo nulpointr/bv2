@@ -23,7 +23,7 @@
 			<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
 		</div><!-- .entry-content -->
                     
-        <div class="rightPanel"><img alt="featured image" style="margin-top: 60px;" src="<?php the_post_thumbnail_url(); ?>" /></div>
+        <div class="rightPanel"><img alt="featured image" style="margin-top: <?php echo get_post_meta($post->ID, 'offset', true); ?>px;" src="<?php the_post_thumbnail_url(); ?>" /></div>
 	</div><!-- #post-## -->
 <?php endwhile; // end of the loop. ?>
 
