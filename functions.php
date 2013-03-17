@@ -14,4 +14,8 @@
     function the_post_thumbnail_url(){
         echo wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
     }
+
+    register_nav_menus( array(
+	    'Nav Menu' => 'Main Navigation Menu'
+    ) );
 ?>

@@ -99,15 +99,9 @@
                 <a href="#"><img id="siteLogo" style="position: absolute; margin-left: -70px;" src="<?php bloginfo('template_url'); ?>/images/logo.png" /></a>
             </div>
            </div>
-<div id="navBar">
+    <div id="navBar">
         <div class="contentWrapper">
-            <ul>
-                <li style="padding: 5px 10px;"><a href="<?php bloginfo('url'); ?>"><img style="height:  20px; position: relative; top: 5px;" src="<?php bloginfo('template_url'); ?>/images/home_icon.png" /></a></li>
-                <li><a href="#">Company</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Opportunity</a></li>
-            </ul>
+            <?php wp_nav_menu(array('menu' => 'Nav Menu' )); ?>
         </div>
     </div>
-    <div id="subNav"></div>
 </header>

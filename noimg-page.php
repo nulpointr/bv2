@@ -1,4 +1,12 @@
-<?php get_header(); ?>
+
+<?php
+    /**
+
+    Template Name: No Image Page
+
+    **/
+    get_header();  
+?>
 <?php
     
   if($post->post_parent)
@@ -14,6 +22,6 @@
         </div>
     </div>
     <section id="wrapper">
-        <?php get_template_part( 'loop', 'page' ); ?>
+        <?php get_template_part( 'loop', 'emptypage' ); ?>
     </section>
 <?php get_footer(); ?>

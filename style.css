@@ -154,7 +154,7 @@ h3{
 }
 
 
-.currentPage{
+.current-page-ancestor, .current_page_item{
     background-color: #825e7f;
     background-image: url(images/selected.jpg);
     background-position: center;
@@ -162,6 +162,8 @@ h3{
 
 #subNav{
     background-color: #b8bb80;
+    min-height: 20px;
+    width: 100%;
 }
 
 #subNav li{
